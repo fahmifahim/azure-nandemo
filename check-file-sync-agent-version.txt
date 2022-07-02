@@ -1,0 +1,28 @@
+How to check Azure File Sync Agent Version
+
+ipmo 'C:\Program Files\Azure\StorageSyncAgent\StorageSync.Management.ServerCmdlets.dll'
+Get-StorageSyncServer
+
+	ServerId                           : xxxxxx
+	SubscriptionId                     : xxxxxx
+	ResourceGroupName                  : test-xxxxxx
+	StorageSyncServiceName             : test-filesync-xxxxxx
+	AgentVersion                       : 15.0.0.0
+	AgentExpirationStatus              :
+	AgentExpirationDate                :
+	ManagementServiceUri               : https://xxxxxx-privatemanagement.eastus.afs.azure.net:443/
+	MonitoringServiceUri               : https://xxxxxx-privatemonitoring.eastus.afs.azure.net:443/
+	IsServerClustered                  : False
+	ClusterId                          :
+	IsAppLevelProxyEnabled             : false
+	IsAppLevelProxyAuthEnabled         : false
+	IsEnrolledToMicrosoftUpdate        : True
+	IsDiagnosticsDataCollectionEnabled : True
+	InstalledInUnattendedMode          : False
+	IsEnrolledToAutoUpdate             :
+	LastSuccessfulTime                 :
+	LastAttemptedTime                  :
+	UpdateSuccess                      :
+	UpdateError                        : 0
+	UpdatesInstalled                   :
+	RebootNeeded                       :
